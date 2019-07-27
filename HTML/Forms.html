@@ -25,8 +25,35 @@
                     Mobile: <input type="number" name="number">
                     <br>
                     DOB: <input type="date" name="date">
-
-
+                    <br>
+                    Gender: 
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="male"> Female
+                        <input type="radio" name="gender" value="male"> Others
+                    <br>
+                    Education:
+                        <input type="checkbox" name="education" value="hs"> High School
+                        <input type="checkbox" name="education" value="inter"> Intermediate
+                        <input type="checkbox" name="education" value="grd"> Graduate
+                    <br>
+                    Country:
+                        <select name="Country">
+                            <option value=""></option>
+                            <option value="Ind">India</option>
+                            <option value="Aus">Australia</option>
+                            <option value="Chi">Chile</option>
+                            <option value="Bra">Brazil</option>
+                            <option value="Fra">France</option>
+                        </select>
+                    <br>
+                    Address:
+                        <textarea name="address" cols="40" rows="10"></textarea>
+                    <br>
+                    <input type="hidden" name="SecretValue" value="123">
+                    <br>
+                    Upload Resume:
+                        <input type="file">
+                    <br>
                     <button type="submit">Submit</button>
                 </form>
     </body>
