@@ -1,0 +1,23 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 18px;
+    font-style: oblique;
+    font-variant: none;
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.Para
+{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,47 @@
+/* Universal Selectors */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Typed Selectors */
+
+h1 {
+    color: coral;
+}
+
+p {
+    color: crimson;
+}
+
+/* Class Selectors */
+
+.Para {
+    color: brown;
+    font-size: 20px;
+}
+
+/* ID Selectors */
+
+#Para2 {
+    color: chartreuse;
+    font-size: 25px;
+}
+
+#Para3 {
+    color: darkgoldenrod;
+    font-size: 15px;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+.Head2 {
+    color: yellow;
+}
