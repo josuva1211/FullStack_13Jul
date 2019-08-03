@@ -1,0 +1,26 @@
+nav {
+    background-color: gold;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+span {
+    display: block;
+}
+
+h1 {
+    /*display: none; It hides and doesnt takes the space */
+    visibility: hidden;/* Takes the space of the element and hides it */
+}
+
+/* list item */
+/* inline-block */
+/* table-item */

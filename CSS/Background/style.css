@@ -1,0 +1,12 @@
+.MyDiv {
+    background-color: darkgoldenrod
+}
+
+.MyDiv1 {
+    background-image: url(../../MEDIA/pexels-photo-210019.jpeg);
+    height: 700px;
+    width: 500px;
+    background-repeat: repeat-x;
+    color: chartreuse;
+    background-position: top left;
+}
