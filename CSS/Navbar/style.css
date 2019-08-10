@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: chartreuse;
+    width: 100%;
+}
+
+ul.TopNav {
+    display: block;
+    overflow: hidden;
+}
+
+ul.TopNav li {
+    float: left;
+    list-style: none;
+    padding: 20px 15px;
+}
+
+ul.TopNav li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+}
+
+ul.TopNav li.SideMenu {
+    float: right;
+}
+
+ul.TopNav li.SideNav {
+    display: none;
+}

@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+}
+
+.Boxes {
+    background-color: darkcyan;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+}
+
+.Box {
+    width: 60%;
+    border: 1px solid red;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.Box1 {
+    background-color: coral;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+
+.Box2 {
+    background-color: yellow;
+    position: relative;
+    top: 17px;
+    left: 125px;
+}
+
+.Box3 {
+    background-color: goldenrod;
+    position: relative;
+    top: 14px;
+    left: 100px;
+}
+
+.Box4 {
+    background-color: aquamarine;
+    position: relative;
+    top: 11px;
+    left: 75px;
+}
+
+.Dummy {
+    height: 1000px;
+    background-color: crimson;
+}
+
+
+
