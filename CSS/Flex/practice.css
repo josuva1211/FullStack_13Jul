@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Container {
+    background-color: black;
+    display: flex;
+}
+
+#Box1 {
+    background-color: yellow;
+}
+
+#Box2 {
+    background-color: green;
+}
+
+#Box3 {
+    background-color: red;
+}

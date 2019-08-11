@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+   /* background-color: black;*/
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-wrap: wrap-reverse;
+    flex-flow: row-reverse;
+}
+
+.Box {
+    min-width: 400px;
+    flex-basis: 400px;/* Same as width property */
+    height: 100px;
+    flex-grow: 1;
+    /*float: left;*/
+}
+
+.One {
+    background-color: red;
+    /*flex-grow: 1;*/
+    flex-shrink: 6;
+}
+
+.Two {
+    background-color: blue;
+    /*flex-grow: 2;*/
+    flex-shrink: 2;
+}
+
+.Three {
+    background-color: green;
+    /*flex-grow: 10;*/
+    flex-shrink: 1;
+}
