@@ -1,0 +1,15 @@
+article p {
+    color: yellow;
+}
+
+.outer p {
+    color: red;
+}
+
+.outer > p {
+    color: red;
+}
+
+.outer .inner p {
+    color: green;
+}

@@ -1,0 +1,7 @@
+.list li:first-child {
+    color: coral;
+}
+
+.list li:last-child {
+    color: chartreuse;
+}

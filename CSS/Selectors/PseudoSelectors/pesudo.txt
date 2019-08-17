@@ -1,0 +1,8 @@
+Pseudo Selectors
+    Style on behaviour
+    Structural
+
+
+    Syntax
+
+    .class

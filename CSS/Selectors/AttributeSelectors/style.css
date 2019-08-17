@@ -1,0 +1,32 @@
+h1[class] {
+    color: lightcoral;
+    font-size: 25px;
+}
+
+a[title] {
+    color: yellow;
+    text-decoration: none;
+}
+
+h1[class="Head1"] {
+    color: blueviolet;
+}
+
+/*a[class="link"] {
+    color: rgb(177, 184, 206);
+}*/
+
+/* Matching a Class */
+ a[class~="link"] {
+    color: royalblue;
+} 
+
+/* Searching the attributes ending with pdf */
+a[href$="pdf"] {
+    color: darkorange;
+}
+
+/* Searching the attributes starting with https */
+a[href^="https"] {
+    color: darkslategrey;
+}
