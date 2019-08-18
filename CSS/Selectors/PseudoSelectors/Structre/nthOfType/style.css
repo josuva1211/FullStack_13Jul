@@ -1,0 +1,9 @@
+.Outer > p:nth-of-type(2) {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Outer > p:nth-of-type(odd) {
+    color: orange;
+}

@@ -1,0 +1,17 @@
+/*ul li:nth-child(4) {
+    color: greenyellow;
+}*/
+
+/*ul li:nth-child(even) {
+    color: yellow;
+}
+
+/* Even and Odd 
+ul li:nth-child(odd) {
+    color: violet;
+}*/
+
+/* n starts from zero */
+ul li:nth-child(2n + 1) {
+    color: tomato;
+}

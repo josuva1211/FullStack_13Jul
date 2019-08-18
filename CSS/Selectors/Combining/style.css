@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Outer {
+    border: 1px dashed red;
+    margin: 10px;
+    padding: 10px;
+}
+
+div.Outer h2 {
+    color: yellow;
+}
+
+section.Outer h2 {
+    color: aqua;
+}
+
+/*.Outer h2 {
+    color: goldenrod;
+}*/
