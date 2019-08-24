@@ -6,21 +6,21 @@ console.log(a);//10
 if (true)
 {
     var b = 50;
-    console.log('Inside if ', a);
-    console.log(b);
+    console.log('Inside if ', a);//10
+    console.log(b);//50
 }
 
-console.log('Accesing b in global ', b);
+console.log('Accesing b in global ', b);//50
 
 function foo(arg1, arg2)
 {
     var str = "Hii";
     bottle = "Green";//this var will be created as a global var since var keyword is not given
-    console.log('Inside Function ', a);
-    console.log('Accesing b in function ', b);
-    console.log(str);
-    console.log(bottle);
-    console.log("Argument",arg1);
+    console.log('Inside Function ', a);//10
+    console.log('Accesing b in function ', b);//50
+    console.log(str);//Hii
+    console.log(bottle);//Green
+    console.log("Argument",arg1);//val1
 }
 
 //console.log(str);//str is not defined

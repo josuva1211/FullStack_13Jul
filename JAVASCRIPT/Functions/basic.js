@@ -126,3 +126,47 @@ function IsPalindrome(num)
 var res = IsPalindrome(121);
 var res = IsPalindrome(122);
 console.log(res);
+
+
+var z = [0,1];
+
+var n = 5;
+
+for (var i = 2; i < n; i++)
+{
+    var NewNum = z[i - 2] + z[i - 1];
+    z.push(NewNum);
+}
+
+console.log(z.toString());
+
+var array = [1,2,3,[4,5,6],7,8,9,0];
+
+var array2 = [];
+
+for (var i = 0; i < array.length; i++)
+{
+    if (Array.isArray(array[i]))
+    {
+        var n1 = array[i];
+        for (var j = 0; j < n1.length; j++)
+        {
+            array2.push(n1[j]);
+        }
+        
+    }
+    else
+    {
+        array2.push(array[i]);
+    }
+
+    //array2.push(array);
+    
+}
+
+console.log(array2.sort());
+
+
+//
+
+

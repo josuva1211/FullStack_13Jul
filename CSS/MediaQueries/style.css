@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: aquamarine;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.column p {
+    text-align: justify;
+    font-style: italic;
+}
+
+@media screen and (max-width:800px) {
+    .column {
+        width: 100%;
+    }
+}
+
+@media (min-width:400px) and (max-width:800px) {
+    header {
+        
+        background-color: coral;
+    }
+}

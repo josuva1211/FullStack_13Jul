@@ -22,7 +22,7 @@ console.log(add(12,2));//14
 //Callback Function
 
 function foo()
-{
+{   
     console.log('I am foo');
 }
 

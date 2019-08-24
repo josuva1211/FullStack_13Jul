@@ -1,0 +1,11 @@
+ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 25px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: coral;
+}
