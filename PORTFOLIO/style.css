@@ -1,11 +1,46 @@
-ul li {
-    display: inline;
-    list-style-type: none;
-    padding: 25px;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: yellow;
+    width: 100%;
+}
+
+ul.TopNav {
+    display: block;
+    overflow: hidden;
+}
+
+ul.TopNav li {
+    float: left;
+    list-style: none;
+    padding: 20px 45px;
+}
+
+ul.TopNav li a {
+    text-decoration: none;
+    text-align: center;
     font-size: 25px;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
-    color: coral;
+ul.TopNav li.SideNav {
+    display: none;
+}
+
+.Container1 {
+    background-color: coral;
+    height: auto;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+h1.Name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
 }

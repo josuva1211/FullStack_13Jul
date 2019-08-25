@@ -50,3 +50,23 @@ let addition = outer(45)(45);
 
 console.log(addition);//90
 
+
+function Summation(a)
+{
+    function inner1(b)
+    {
+        function inner2(c)
+        {
+            function inner3(d)
+            {
+                return a+b+c+d;
+            }
+            return inner3;
+        }
+        return inner2;
+    }
+    return inner1;
+}
+
+console.log(Summation(2)(3)(1)(4));
+

@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: chartreuse;
+    background-color: yellow;
     width: 100%;
 }
 
@@ -24,7 +24,8 @@ ul.TopNav li a {
     text-decoration: none;
     text-align: center;
     font-size: 25px;
-    color: brown;
+    color: Black;
+    min-height: 16px;
 }
 
 ul.TopNav li.SideMenu {
@@ -33,4 +34,35 @@ ul.TopNav li.SideMenu {
 
 ul.TopNav li.SideNav {
     display: none;
+}
+
+@media (max-width: 600px){
+    ul.TopNav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.TopNav li.SideNav {
+        display: inline;
+        float: right;
+    }
+
+    ul.responsive.TopNav {
+        position: relative;
+    }
+
+    ul.TopNav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.TopNav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    ul.TopNav.responsive li.SideNav {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }

@@ -9,10 +9,10 @@
                 <li>
                     <a href="#">Home</a>
                 </li>
-                <li>
+                <li class="Responsive">
                     <a href="#">About</a>
                 </li>
-                <li>
+                <li class="Responsive">
                     <a href="#">Contact</a>
                 </li>
                 <li class="SideMenu">
@@ -22,9 +22,29 @@
                     <a href="#">Login</a>
                 </li>
                 <li class="SideNav">
-                    <a href="#">&#9776;</a>
+                    <a href="#" id="Menu">&#9776;</a>
                 </li>
             </ul>
         </nav>
+
+        <script>
+            let ele = document.querySelector("#Menu");
+            let ul = document.querySelector(".TopNav");
+
+            function handler(e) {
+                e.preventDefault();//To prevent the default behaviour of the element
+
+                if (ul.className == 'TopNav')
+                {
+                    ul.className += ' responsive'
+                }
+                else
+                {
+                    ul.className == 'TopNav'
+                }
+            }
+
+            ele.addEventListener('click', handler);
+        </script>
     </body>
 </html>
