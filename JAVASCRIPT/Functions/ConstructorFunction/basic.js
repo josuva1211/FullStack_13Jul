@@ -90,4 +90,8 @@ console.log(stu1.constructor.prototype.hasOwnProperty("toString"));//false
 
 console.log(stu1.constructor.prototype.constructor.prototype.hasOwnProperty("toString"));//false
 
+console.log(Object.hasOwnProperty("tostring"));
+
+console.log(Object.constructor.hasOwnProperty("tostring"));
+
 
