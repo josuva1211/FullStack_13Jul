@@ -50,4 +50,20 @@ console.log(fruits.join());//apple,strawberry,sapota,banana
 
 console.log(fruits.join(' '));//["apple", "strawberry", "sapota", "banana"]
 
-//Exercise "I am learning JS" --> IalJ
+//Exercise "I am learning JS" --> IalJ  
+
+let numbers = [25,34,87,12,67,53];
+
+//forEach() is used to iterate your  arrays one by one
+numbers.forEach(function(ele,ind,arr){
+    console.log("Element", ele);
+    console.log("Index", ind);
+    console.log("Array", arr);
+});
+
+let frnds =  ["vijay","bala","hari","raj","vickey","mei"];
+
+for (x of frnds)
+{
+    console.log(x);
+}
